@@ -1,0 +1,3 @@
+C:\Users\dylan\Documents\Unreal Projects\Anxiety_v1\Source\Anxiety_v1\Anxiety_v1.Build.cs
+C:\Users\dylan\Documents\Unreal Projects\Anxiety_v1\Source\Anxiety_v1.Target.cs
+C:\Users\dylan\Documents\Unreal Projects\Anxiety_v1\Source\Anxiety_v1Editor.Target.cs
