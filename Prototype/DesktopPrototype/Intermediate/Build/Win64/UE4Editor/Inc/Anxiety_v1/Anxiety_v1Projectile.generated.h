@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
@@ -52,11 +52,10 @@ struct FHitResult;
 #define DesktopPrototype_Source_Anxiety_v1_Anxiety_v1Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAnxiety_v1Projectile(); \
-	friend ANXIETY_V1_API class UClass* Z_Construct_UClass_AAnxiety_v1Projectile(); \
+	friend struct Z_Construct_UClass_AAnxiety_v1Projectile_Statics; \
 public: \
-	DECLARE_CLASS(AAnxiety_v1Projectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Anxiety_v1"), NO_API) \
+	DECLARE_CLASS(AAnxiety_v1Projectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Anxiety_v1"), NO_API) \
 	DECLARE_SERIALIZER(AAnxiety_v1Projectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
 	static const TCHAR* StaticConfigName() {return TEXT("Game");} \
 
 
@@ -64,11 +63,10 @@ public: \
 #define DesktopPrototype_Source_Anxiety_v1_Anxiety_v1Projectile_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAAnxiety_v1Projectile(); \
-	friend ANXIETY_V1_API class UClass* Z_Construct_UClass_AAnxiety_v1Projectile(); \
+	friend struct Z_Construct_UClass_AAnxiety_v1Projectile_Statics; \
 public: \
-	DECLARE_CLASS(AAnxiety_v1Projectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Anxiety_v1"), NO_API) \
+	DECLARE_CLASS(AAnxiety_v1Projectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Anxiety_v1"), NO_API) \
 	DECLARE_SERIALIZER(AAnxiety_v1Projectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
 	static const TCHAR* StaticConfigName() {return TEXT("Game");} \
 
 
