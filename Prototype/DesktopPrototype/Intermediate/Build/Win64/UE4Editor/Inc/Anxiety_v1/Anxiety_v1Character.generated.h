@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "ObjectMacros.h"
+#include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef ANXIETY_V1_Anxiety_v1Character_generated_h
@@ -18,19 +18,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define DesktopPrototype_Source_Anxiety_v1_Anxiety_v1Character_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAnxiety_v1Character(); \
-	friend struct Z_Construct_UClass_AAnxiety_v1Character_Statics; \
+	friend ANXIETY_V1_API class UClass* Z_Construct_UClass_AAnxiety_v1Character(); \
 public: \
-	DECLARE_CLASS(AAnxiety_v1Character, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Anxiety_v1"), NO_API) \
-	DECLARE_SERIALIZER(AAnxiety_v1Character)
+	DECLARE_CLASS(AAnxiety_v1Character, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Anxiety_v1"), NO_API) \
+	DECLARE_SERIALIZER(AAnxiety_v1Character) \
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
 #define DesktopPrototype_Source_Anxiety_v1_Anxiety_v1Character_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAAnxiety_v1Character(); \
-	friend struct Z_Construct_UClass_AAnxiety_v1Character_Statics; \
+	friend ANXIETY_V1_API class UClass* Z_Construct_UClass_AAnxiety_v1Character(); \
 public: \
-	DECLARE_CLASS(AAnxiety_v1Character, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Anxiety_v1"), NO_API) \
-	DECLARE_SERIALIZER(AAnxiety_v1Character)
+	DECLARE_CLASS(AAnxiety_v1Character, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Anxiety_v1"), NO_API) \
+	DECLARE_SERIALIZER(AAnxiety_v1Character) \
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
 #define DesktopPrototype_Source_Anxiety_v1_Anxiety_v1Character_h_14_STANDARD_CONSTRUCTORS \

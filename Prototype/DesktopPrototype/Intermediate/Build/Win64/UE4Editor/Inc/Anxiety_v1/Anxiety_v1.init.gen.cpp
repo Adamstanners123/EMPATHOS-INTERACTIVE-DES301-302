@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "UObject/GeneratedCppIncludes.h"
+#include "GeneratedCppIncludes.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeAnxiety_v1_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Anxiety_v1",
 				PKG_CompiledIn | 0x00000000,
-				0x94741F0D,
+				0x42CDC253,
 				0x485E3251,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
