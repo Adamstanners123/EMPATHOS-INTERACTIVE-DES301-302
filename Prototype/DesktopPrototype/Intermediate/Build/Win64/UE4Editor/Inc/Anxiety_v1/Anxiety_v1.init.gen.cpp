@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeAnxiety_v1_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Anxiety_v1",
 				PKG_CompiledIn | 0x00000000,
-				0x42CDC253,
-				0x485E3251,
+				0xB3E66EF0,
+				0x24E95C40,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

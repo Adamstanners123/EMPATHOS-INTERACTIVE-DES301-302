@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
-/I "C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Source"
-/I "C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Inc\Anxiety_v1"
-/I "C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Source\Anxiety_v1"
+/I "C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Source"
+/I "C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Inc\Anxiety_v1"
+/I "C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Source\Anxiety_v1"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -363,9 +363,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Inc\Anxiety_v1\Anxiety_v1Projectile.gen.cpp"
-/FI"C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Development\Anxiety_v1\Definitions.Anxiety_v1.h"
-/Fo"C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Development\Anxiety_v1\Anxiety_v1Projectile.gen.cpp.obj"
+"C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Inc\Anxiety_v1\Anxiety_v1Projectile.gen.cpp"
+/FI"C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Development\Anxiety_v1\Definitions.Anxiety_v1.h"
+/Fo"C:\Users\Home\Documents\1_uni_work_and_projects\DES 301\EMPATHOS\Prototype\DesktopPrototype\Intermediate\Build\Win64\UE4Editor\Development\Anxiety_v1\Anxiety_v1Projectile.gen.cpp.obj"
 /TP
 /GR-
 /W4
