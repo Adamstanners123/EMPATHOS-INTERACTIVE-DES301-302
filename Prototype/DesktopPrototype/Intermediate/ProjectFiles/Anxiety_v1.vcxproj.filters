@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<<<<<<< HEAD
 	<ItemGroup>
 		<None Include="..\..\Anxiety_v1.uproject" />
 		<Filter Include="Source">
@@ -86,3 +86,87 @@
 		</ClInclude >
 	</ItemGroup>
 </Project>
+=======
+  <ItemGroup>
+    <None Include="..\..\Anxiety_v1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2F8BEF58-F61D-4D98-8A4D-B52B44B163E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Anxiety_v1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Anxiety_v1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{476384A4-5337-4720-A684-8C31FAA19DA9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1D56C335-D6CF-4E0A-9429-EDD4B9D09E06}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Shaders\Gaussian.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\MyTest.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <Filter Include="Source\Anxiety_v1">
+      <UniqueIdentifier>{947D7DC5-93BA-4050-8B04-8D153875EEE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Anxiety_v1\Anxiety_v1.Build.cs">
+      <Filter>Source\Anxiety_v1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Anxiety_v1\Anxiety_v1.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anxiety_v1\Anxiety_v1Character.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1Character.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anxiety_v1\Anxiety_v1GameMode.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1GameMode.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anxiety_v1\Anxiety_v1HUD.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1HUD.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anxiety_v1\Anxiety_v1Projectile.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1Projectile.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Anxiety_v1\MyTestClass.cpp">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Anxiety_v1\MyTestClass.h">
+      <Filter>Source\Anxiety_v1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
+>>>>>>> 276c60670ee7c1de7e59cb7d296365b61e6e2a90
