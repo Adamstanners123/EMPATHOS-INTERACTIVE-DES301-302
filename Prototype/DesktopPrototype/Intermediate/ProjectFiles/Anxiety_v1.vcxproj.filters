@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Anxiety_v1.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{05B4C22F-2292-4F2E-BEEB-A7A972B06529}</UniqueIdentifier>
+			<UniqueIdentifier>{FC18AED9-9071-4789-A3D3-BDF561CB7D56}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Anxiety_v1.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E33282C4-AE11-4D8D-AFC3-49879A5494B0}</UniqueIdentifier>
+			<UniqueIdentifier>{CED7160F-42A9-4AEA-A16E-FB13BBC348CB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -30,8 +30,14 @@
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
 		</None >
+		<Filter Include="Shaders">
+			<UniqueIdentifier>{14E9859A-2778-44C2-A9B7-E43CC26EC478}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Shaders\Gaussian.usf">
+			<Filter>Shaders</Filter>
+		</None >
 		<Filter Include="Source\Anxiety_v1">
-			<UniqueIdentifier>{DF223C0E-5392-4017-9407-4D8C8133C12A}</UniqueIdentifier>
+			<UniqueIdentifier>{5A6389FB-927A-493A-9F37-7BB299E8DF31}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Anxiety_v1\Anxiety_v1.Build.cs">
 			<Filter>Source\Anxiety_v1</Filter>
@@ -64,6 +70,18 @@
 			<Filter>Source\Anxiety_v1</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1Projectile.h">
+			<Filter>Source\Anxiety_v1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Anxiety_v1\PlaySound.cpp">
+			<Filter>Source\Anxiety_v1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Anxiety_v1\PlaySound.h">
+			<Filter>Source\Anxiety_v1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Anxiety_v1\Sound.cpp">
+			<Filter>Source\Anxiety_v1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Anxiety_v1\Sound.h">
 			<Filter>Source\Anxiety_v1</Filter>
 		</ClInclude >
 	</ItemGroup>

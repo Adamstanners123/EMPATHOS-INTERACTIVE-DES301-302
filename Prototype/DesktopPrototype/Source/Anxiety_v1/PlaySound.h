@@ -12,18 +12,17 @@ class ANXIETY_V1_API UPlaySound : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
-	// Sets default values for this component's properties
-	UPlaySound();
+public:
 
-protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
+	float spin;	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
+	
+	// Sets default values for this component's properties
+	UPlaySound();
 		
 	
 };
