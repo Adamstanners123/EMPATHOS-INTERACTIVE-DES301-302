@@ -35,9 +35,6 @@
     <None Include="..\..\Shaders\Gaussian.usf">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="..\..\Shaders\MyTest.usf">
-      <Filter>Shaders</Filter>
-    </None>
     <Filter Include="Source\Anxiety_v1">
       <UniqueIdentifier>{947D7DC5-93BA-4050-8B04-8D153875EEE5}</UniqueIdentifier>
     </Filter>
@@ -72,12 +69,6 @@
       <Filter>Source\Anxiety_v1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Anxiety_v1\Anxiety_v1Projectile.h">
-      <Filter>Source\Anxiety_v1</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Anxiety_v1\MyTestClass.cpp">
-      <Filter>Source\Anxiety_v1</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Anxiety_v1\MyTestClass.h">
       <Filter>Source\Anxiety_v1</Filter>
     </ClInclude>
   </ItemGroup>
