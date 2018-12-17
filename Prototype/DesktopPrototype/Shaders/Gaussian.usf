@@ -1,3 +1,7 @@
+
+
+
+
 static const int SceneTextureId = 14;
 float2 TexelSize = View.ViewSizeAndInvSize.zw;
 float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTextureId);
@@ -17,6 +21,4 @@ for (int x = -Radius; x <= Radius; x++)
 		WeightSum += Weight;
 	}
 }
-
-
 return PixelSum / WeightSum;
