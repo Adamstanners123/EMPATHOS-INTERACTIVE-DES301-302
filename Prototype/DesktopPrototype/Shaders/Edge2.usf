@@ -1,0 +1,14 @@
+
+
+
+
+float input1 = input00;
+float input2 = input01;
+float input3 = input02;
+float input4 = input03;
+float input5 = input04;
+float output;
+
+input5 = input5 * -4.0f;
+output = input1 + input2 + input3 + input4 + input5;
+return abs(output);

@@ -1,0 +1,10 @@
+
+
+
+static const int PostProcessId = 14;
+static const int DiffuseColorId = 2;
+
+float d_postProcess = dot(PostProcessId, float3(0.3, 0.59, 0.11));
+float d_diffuseColor = dot(DiffuseColorId, float3(0.3, 0.59, 0.11));
+
+return d_postProcess / d_diffuseColor;
