@@ -1,0 +1,24 @@
+
+
+//	THRESHOLD
+float threshold = 0.5;
+
+//	DEPTH CUT OFF
+float cutoff = 9000;
+
+
+if (Laplacian < threshold) { return 0; }
+if (Laplacian > threshold) 
+{ 
+	if (MyDepth > cutoff) { return 0; }
+	if (MyDepth < cutoff) 
+	{ 
+		return 1; 
+	}
+	return 1;
+}
+
+
+
+
+

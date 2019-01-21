@@ -4330,6 +4330,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeAnxiety_v1HUD();
     extern void EmptyLinkFunctionForGeneratedCodeAnxiety_v1Projectile();
     EmptyLinkFunctionForGeneratedCodeAnxiety_v1Projectile();
+    extern void EmptyLinkFunctionForGeneratedCodePlaySound();
+    EmptyLinkFunctionForGeneratedCodePlaySound();
     extern void EmptyLinkFunctionForGeneratedCodeEditorStyle_init();
     EmptyLinkFunctionForGeneratedCodeEditorStyle_init();
     extern void EmptyLinkFunctionForGeneratedCodeEditorStyleSettings();
