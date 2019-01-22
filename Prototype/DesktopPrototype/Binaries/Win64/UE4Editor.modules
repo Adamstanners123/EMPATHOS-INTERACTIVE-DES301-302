@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"Anxiety_v1": "UE4Editor-Anxiety_v1-7638.dll"
+=======
+		"Anxiety_v1": "UE4Editor-Anxiety_v1-7708.dll"
+>>>>>>> 276c60670ee7c1de7e59cb7d296365b61e6e2a90
 	}
 }
