@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PrototypeC.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FEEF1586-379F-490D-8AF3-4E89D651030B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PrototypeC.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PrototypeCEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{30FF5D75-92AB-46DE-BEDD-20353F20A29A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PrototypeC">
+			<UniqueIdentifier>{C7676DFB-E8CD-4322-9116-7601CADD9325}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PrototypeC\PlaySounds.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PlaySounds.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\PrototypeC\PrototypeC.Build.cs">
+			<Filter>Source\PrototypeC</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PrototypeC\PrototypeC.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PrototypeC.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PrototypeC\PrototypeCCharacter.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PrototypeCCharacter.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PrototypeC\PrototypeCGameMode.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PrototypeCGameMode.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PrototypeC\PrototypeCHUD.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PrototypeCHUD.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PrototypeC\PrototypeCProjectile.cpp">
+			<Filter>Source\PrototypeC</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PrototypeC\PrototypeCProjectile.h">
+			<Filter>Source\PrototypeC</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
