@@ -1,0 +1,11 @@
+
+
+
+{
+static const int SceneTextureId = 14;
+float2 TexelSize = View.ViewSizeAndInvSize.zw;
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTextureId);
+float2 Offset;
+return (UV + float2(1, 1) * TexelSize);
+
+}

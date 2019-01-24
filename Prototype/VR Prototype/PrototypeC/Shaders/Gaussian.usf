@@ -1,0 +1,24 @@
+
+
+
+
+static const int SceneTextureId = 14;
+float2 TexelSize = View.ViewSizeAndInvSize.zw;
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTextureId);
+float3 PixelSum = float3(0, 0, 0);
+float WeightSum = 0;
+
+//	FOR loops for vertical and horizontal offsets.
+for (int x = -Radius; x <= Radius; x++)
+{
+	for (int y = -Radius; y <= Radius; y++)
+	{
+		// Accumulate pixel colours and weights
+		float2 Offset = UV + float2(x, y) * TexelSize;
+		float3 PixelColour = SceneTextureLookup(Offset, SceneTextureId, 0).rgb;
+		float Weight = Calculate1DGaussian(x / Radius) * Calculate1DGaussian(y / Radius);
+		PixelSum += PixelColour * Weight;
+		WeightSum += Weight;
+	}
+}
+return PixelSum / WeightSum;
