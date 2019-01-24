@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\Abertay_HIVE\Documents\GitHub\empathy_vr\EMPATHOS-INTERACTIVE-DES301-302\Prototype\DesktopPrototype\Source\Anxiety_v1\Anxiety_v1.Build.cs
 C:\Users\Abertay_HIVE\Documents\GitHub\empathy_vr\EMPATHOS-INTERACTIVE-DES301-302\Prototype\DesktopPrototype\Source\Anxiety_v1.Target.cs
 C:\Users\Abertay_HIVE\Documents\GitHub\empathy_vr\EMPATHOS-INTERACTIVE-DES301-302\Prototype\DesktopPrototype\Source\Anxiety_v1Editor.Target.cs
+=======
+C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Source\Anxiety_v1\Anxiety_v1.Build.cs
+C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Source\Anxiety_v1.Target.cs
+C:\Users\dylan\Documents\Unreal Projects\Empathos\Prototype\DesktopPrototype\Source\Anxiety_v1Editor.Target.cs
+>>>>>>> 8170ca6034e904cec3ef386830b4d2d3af6959a0
